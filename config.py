@@ -13,19 +13,19 @@ API_HASH = getenv("API_HASH") #⚠️fill or leave
 BOT_TOKEN = getenv("BOT_TOKEN") #⚠️fill or leave 
 
 # Specify where to get the following credentials
-OWNER_USERNAME = getenv("OWNER_USERNAME", "MrBrokn") #⚠️replace 
-BOT_USERNAME = getenv("BOT_USERNAME", "MISS_YUMIPRO_BOT") #⚠️replace
-BOT_NAME = getenv("BOT_NAME", "‣ Mɪss Yᴜᴍɪ Pʀᴏ⋆ ᴠ𝟸.𝟶") #⚠️replace
-ASSUSERNAME = getenv("ASSUSERNAME", "BROKNXASSISTANT") #⚠️Replace
+OWNER_USERNAME = getenv("OWNER_USERNAME", "I_AM_SNOW_BOT") #⚠️replace 
+BOT_USERNAME = getenv("BOT_USERNAME", "SNOW_X_MEOW_BOT") #⚠️replace
+BOT_NAME = getenv("BOT_NAME", "‣ SNOW MUSIC ❄️") #⚠️replace
+ASSUSERNAME = getenv("ASSUSERNAME", "SNOW ASSISTANT 🥰") #⚠️Replace
 EVALOP = list(map(int, getenv("EVALOP", "1841914911").split())) 
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 API_KEY = getenv("SHRUTI_API", "") # ⚠️ GET THIS FROM https://t.me/SHRUTIAPIBOT
-LOGGER_ID = int(getenv("LOGGER_ID", -1002094142057)) #⚠️REPLACE
+LOGGER_ID = int(getenv("LOGGER_ID", ) #⚠️REPLACE
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 # External APIs - Get these from their respective providers
 GPT_API = getenv("GPT_API")
 DEEP_API = getenv("DEEP_API")
-OWNER_ID = int(getenv("OWNER_ID", 1841914911)) #⚠️REPLACE
+OWNER_ID = int(getenv("OWNER_ID", )) #⚠️REPLACE
 
 # Heroku deployment settings - Refer to Heroku documentation on how to obtain these
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
@@ -35,8 +35,8 @@ UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "Master") #⚠️Don't Change
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 # Support and contact information - Provide your own support channels
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/BROKENXNETWORK") #⚠️Replace
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+7yFRvkorUdFiZTll") #⚠️Replace
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/SNOW_X_MUSIC") #⚠️Replace
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/bakafamly") #⚠️Replace
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -48,8 +48,8 @@ SONG_DOWNLOAD_DURATION = int(getenv("SONG_DOWNLOAD_DURATION", "9999999"))
 SONG_DOWNLOAD_DURATION_LIMIT = int(getenv("SONG_DOWNLOAD_DURATION_LIMIT", "9999999"))
 
 # External service credentials - Obtain these from Spotify
-SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", "22b6125bfe224587b722d6815002db2b") #replace with your
-SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", "c9c63c6fbf2f467c8bc68624851e9773") #replace with your
+SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", "419fca75d53b4502aa78f8910447e279") #replace with your
+SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", "776565de67d445e887e5dde9c468efe2") #replace with your
 
 # Telegram file size limits - Set these according to your requirements
 TG_AUDIO_FILESIZE_LIMIT = int(getenv("TG_AUDIO_FILESIZE_LIMIT", "5242880000"))
@@ -85,21 +85,22 @@ autoclean = []
 confirmer = {}
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://telegra.ph/file/ca3c86842fe3a4f07a3b6.jpg"
+    "START_IMG_URL", "https://www.image2url.com/r2/default/videos/1786729003087-2c33488b-2160-4db6-9533-8194a6e54c06.mp4"
 )
 PING_VID_URL = getenv(
-    "PING_VID_URL", "https://telegra.ph/file/4f0a703ae7b10a7049c61.mp4"
+    "PING_VID_URL", "https://www.image2url.com/r2/default/videos/1786729003087-2c33488b-2160-4db6-9533-8194a6e54c06.mp4"
 )
-PLAYLIST_IMG_URL = "https://telegra.ph/file/ca3c86842fe3a4f07a3b6.jpg"
-STATS_VID_URL = "https://telegra.ph/file/4f0a703ae7b10a7049c61.mp4"
-TELEGRAM_AUDIO_URL = "https://telegra.ph/file/8ba38eca9318beb6dcede.jpg"
-TELEGRAM_VIDEO_URL = "https://telegra.ph/file/470d98e37b15e7ccdc266.jpg"
-STREAM_IMG_URL = "https://telegra.ph/file/c86b07e9972126c769b63.jpg"
-SOUNCLOUD_IMG_URL = "https://telegra.ph/file/470d98e37b15e7ccdc266.jpg"
-YOUTUBE_IMG_URL = "https://telegra.ph/file/470d98e37b15e7ccdc266.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://telegra.ph/file/8ba38eca9318beb6dcede.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://telegra.ph/file/8ba38eca9318beb6dcede.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://telegra.ph/file/8ba38eca9318beb6dcede.jpg"
+PLAYLIST_IMG_URL = "https://www.image2url.com/r2/default/videos/1786729003087-2c33488b-2160-4db6-9533-8194a6e54c06.mp4"
+STATS_IMG_URL = "https://www.image2url.com/r2/default/videos/1786729003087-2c33488b-2160-4db6-9533-8194a6e54c06.mp4"
+TELEGRAM_AUDIO_URL = "https://www.image2url.com/r2/default/videos/1786729003087-2c33488b-2160-4db6-9533-8194a6e54c06.mp4"
+TELEGRAM_VIDEO_URL = "https://www.image2url.com/r2/default/videos/1786729003087-2c33488b-2160-4db6-9533-8194a6e54c06.mp4"
+STREAM_IMG_URL = "https://www.image2url.com/r2/default/videos/1786729003087-2c33488b-2160-4db6-9533-8194a6e54c06.mp4"
+SOUNCLOUD_IMG_URL = "https://www.image2url.com/r2/default/videos/1786729003087-2c33488b-2160-4db6-9533-8194a6e54c06.mp4"
+YOUTUBE_IMG_URL = "https://www.image2url.com/r2/default/videos/1786729003087-2c33488b-2160-4db6-9533-8194a6e54c06.mp4"
+SPOTIFY_ARTIST_IMG_URL = "https://www.image2url.com/r2/default/videos/1786729003087-2c33488b-2160-4db6-9533-8194a6e54c06.mp4"
+SPOTIFY_ALBUM_IMG_URL = "https://www.image2url.com/r2/default/videos/1786729003087-2c33488b-2160-4db6-9533-8194a6e54c06.mp4"
+SPOTIFY_PLAYLIST_IMG_URL = "https://www.image2url.com/r2/default/videos/1786729003087-2c33488b-2160-4db6-9533-8194a6e54c06.mp4"
+
 
 def time_to_seconds(time):
     stringt = str(time)

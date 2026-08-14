@@ -20,7 +20,7 @@ ASSUSERNAME = getenv("ASSUSERNAME", "SNOW ASSISTANT 🥰") #⚠️Replace
 EVALOP = list(map(int, getenv("EVALOP", "1841914911").split())) 
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 API_KEY = getenv("SHRUTI_API", "") # ⚠️ GET THIS FROM https://t.me/SHRUTIAPIBOT
-LOGGER_ID = int(getenv("LOGGER_ID", -1003989910396)) #⚠️REPLACE
+LOGGER_ID = int(getenv("LOGGER_ID", -1003926755860)) #⚠️REPLACE
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 # External APIs - Get these from their respective providers
 GPT_API = getenv("GPT_API")

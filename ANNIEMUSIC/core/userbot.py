@@ -11,7 +11,7 @@ assistantids = []
 class Userbot(Client):
     def __init__(self):
         self.one = Client(
-            name="Annie1",
+            name="snow1",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING1),
@@ -51,14 +51,14 @@ class Userbot(Client):
         if config.STRING1:
             await self.one.start()
             try:
-                await self.one.join_chat("BROKENXNETWORK")
+                await self.one.join_chat("bakafamly")
               
-                await self.one.join_chat("AboutBrokenX")
+                await self.one.join_chat("SNOW_X_MUSIC")
             except:
                 pass
             assistants.append(1)
             try:
-                await self.one.send_message(config.LOGGER_ID, "𝐁ʀᴏᴋᴇɴ 𝐗 𝐀ssɪsᴛᴀɴᴛ 𝐒ᴛᴀʀᴛᴇᴅ 𝐒ᴜᴄᴄᴇssғᴜʟʟʏ...")
+                await self.one.send_message(config.LOGGER_ID, "SNOW 𝐗 𝐀ssɪsᴛᴀɴᴛ ALIVE 🩷...")
                  # successfully                        
             except:
                 LOGGER(__name__).error(

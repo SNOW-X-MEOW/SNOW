@@ -20,12 +20,12 @@ ASSUSERNAME = getenv("ASSUSERNAME", "SNOW ASSISTANT 🥰") #⚠️Replace
 EVALOP = list(map(int, getenv("EVALOP", "1841914911").split())) 
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 API_KEY = getenv("SHRUTI_API", "") # ⚠️ GET THIS FROM https://t.me/SHRUTIAPIBOT
-LOGGER_ID = int(getenv("LOGGER_ID", ) #⚠️REPLACE
+LOGGER_ID = int(getenv("LOGGER_ID", -1003989910396 ) #⚠️REPLACE
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 # External APIs - Get these from their respective providers
 GPT_API = getenv("GPT_API")
 DEEP_API = getenv("DEEP_API")
-OWNER_ID = int(getenv("OWNER_ID", )) #⚠️REPLACE
+OWNER_ID = int(getenv("OWNER_ID", 8898061221)) #⚠️REPLACE
 
 # Heroku deployment settings - Refer to Heroku documentation on how to obtain these
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
